@@ -16,6 +16,7 @@
 7. [**API 명세서**](#7)
 8. [**Project Architecture**](#8)
 9. [**트러블 슈팅**](#9)
+10. [**ERD**] (#10)
    <br/>
    <br/>
 
@@ -274,3 +275,7 @@ JAR_PATH="$BASE_PATH/build/libs/$JAR_NAME"
 <br/>
 <br/>
 
+<div id="10"></div>
+
+### 🗺️ ERD
+![image](https://github.com/OurPortfolio/BE/assets/108252926/e27aea6c-fadc-44e9-bdee-7339fe218637)
