@@ -161,9 +161,20 @@ FE
 
 | 진행 순서 | 내용    |
 | :-------- |:------|
-| 😱 문제   | 블라블라  |
-| 😭 시도   | 블라 블라 |
-| 😄 해결   | 블라 블라 |
+| 😱 문제   | Axios Header에 Authorization: accessToken을 넣어 로그인을 진행한 후 프로젝트 작성 및 수정과 같은 accesstoken을 사용하는 작업을 할 시 정상적인 상황이라면 accesstoken에 토큰이 담아져야 하는데 null 값이 들어가 작업을 진행할 수 없게 되는 문제가 발생함.   |
+| 😭 시도   | 기존에 const accessToken = localStorage.getItem('accesstoken'); 은 로컬 스토리지에서 액세스 토큰이라는 키에 해당하는 값을 가져오는 것이다.이 때 accessToken 을 사용하게 되면 토큰 값을 즉시 획득한다. 그래서 액세스 토큰이 로그인을 거칠 경우 로그인 전에 모듈이 로드되어 액세스 토큰 값이 null 이되어 토큰을 사용하여 작업이 불가능하게 됨. |
+| 😄 해결   | ![엑세스토큰 트러블슈팅](https://github.com/OurPortfolio/FE/assets/108606678/28264a0f-77fd-48a9-9cc1-434590154025) |
+
+</details>
+
+<details>
+<summary>무한 스크롤</summary>
+
+| 진행 순서 | 내용   |
+| :------------ |:--------------------------------------------|
+| 😱 <br/> 문제   | 스크롤 시 중복되는 데이터 호출, 스크롤 떨림 현상 |
+| 😭 <br/> 시도   | ![무한스크롤 문제상황 1](https://github.com/OurPortfolio/FE/assets/108606678/39f2f885-2a08-4724-a22c-ef7440ac5b4c)  ![무한스크롤 문제상황 2](https://github.com/OurPortfolio/FE/assets/108606678/2c5fa89b-d70c-4003-a73d-a8e2cafa680d) |
+| 😄 <br/> 해결   | ![무한스크롤 문제상황 해결](https://github.com/OurPortfolio/FE/assets/108606678/823de8aa-27c9-4b40-a48a-ccf49b0e62e2) |
 
 </details>
 
