@@ -83,17 +83,17 @@
 
 ### 📲 서비스 주요기능
 
-| Infinite Scroll | Search |
+| Infinite Scroll(무한 스크롤) | Search(검색 자동완성) |
 | :-------- |:------|
 |  ![무한스크롤](https://github.com/OurPortfolio/FE/assets/108606678/2f2527d2-6df0-4f39-91d8-e1736c8f6dea)  | ![검색](https://github.com/OurPortfolio/FE/assets/108606678/2ab24f84-10ac-4b95-a6a9-48bae2c0e33f)  | 
 | 게시물들을 페이지 변환 없이 스크롤을 하여 계속 확인할 수 있습니다.   | 원하는 키워드로 검색하여 원하는 게시물을 찾아보실수 있습니다.  |
 
-| Crop Image | Responsive | 
+| Crop Image(이미지 크롭) | Responsive(반응형) | 
 | :-------- |:------|
 | ![이미지 크롭](https://github.com/OurPortfolio/FE/assets/108606678/4e4b5c99-eb3f-4b0d-b7c1-692b392c3288)  | ![반응형](https://github.com/OurPortfolio/FE/assets/108606678/cd2e4f96-a991-44e9-ba18-f7f4c1480f7e) | 
 |  포트폴리오 메인 이미지를 사용자가 원하는 부분을 잘라 보여줄수 있습니다.  | Web으로 개발되었지만 Tablet, Mobile 에서도 일그러짐 없이 확인할 수 있습니다.  |
 
-| Dark Mode |
+| Dark Mode(다크 모드) |
 | :-------- |
 |![다크모드](https://github.com/OurPortfolio/FE/assets/108606678/3d274983-acee-4d9b-8455-36035f995f01) | 
 | 사용자의 취향, 에너지절약, 시각적편안함을 제공합니다.   |
